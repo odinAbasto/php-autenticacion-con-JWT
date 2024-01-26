@@ -1,0 +1,88 @@
+.btn, .btn-danger {
+  padding: 0rem 0.5rem;
+  border-radius: 4px;
+  color: white;
+  font-weight: 500;
+  background-color: #4D97AF;
+}
+.btn:hover, .btn-danger:hover {
+  background-color: #2b819e;
+}
+
+.btn-danger {
+  background-color: #f57d74;
+}
+.btn-danger:hover {
+  background-color: #f14545;
+}
+
+.table {
+  border-collapse: collapse;
+}
+.table th, .table td {
+  padding: 0.5rem;
+  border: 1px solid #B4B4B3;
+  border-collapse: collapse;
+}
+.table tbody thead {
+  background-color: #26577C;
+  color: white;
+}
+.table tbody thead th {
+  padding: 0.5rem;
+}
+.table tbody td {
+  text-align: right;
+}
+
+.form {
+  background-color: white;
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+}
+.form input, .form select {
+  padding: 0.2rem;
+  margin-bottom: 20px;
+  height: -moz-min-content;
+  height: min-content;
+}
+.form input[type=submit], .form select[type=submit] {
+  height: -moz-min-content;
+  height: min-content;
+}
+.form select {
+  height: -moz-min-content;
+  height: min-content;
+}
+.form button {
+  padding: 3.2px;
+}
+
+.form-line {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.form-line label {
+  margin-right: 5px;
+}
+.form-line input, .form-line select {
+  margin-right: 1rem;
+}
+.form-line input[type=submit], .form-line select[type=submit] {
+  height: -moz-min-content;
+  height: min-content;
+}
+
+.main-container {
+  display: flex;
+}
+.main-container main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=editar-usuario.css.map */

@@ -1,0 +1,25 @@
+nav{
+    display: none;
+}
+footer{
+    display: none;
+}
+header{
+    display: none;
+}
+body{
+    display:block;
+    grid-template-rows: 100vr;
+    grid-template-columns: 1fr;
+    max-width: 1350px;
+    margin: 0 auto;
+    justify-content: center;
+    /*background-color: var(--fondo);*/
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+
+}
+form{
+    max-width: 400px;
+}

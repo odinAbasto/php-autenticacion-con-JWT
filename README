@@ -1,0 +1,7 @@
+DESCRIPCION:
+    3- Aplicacion que usa AJAX en el formulario de registro para comprobar si el nombre de usuario o login escrito por el usuario(4 caracteres o mas) esta disponible o si ya esta siendo usado por otro usuario, mostrando un mensaje.
+
+INSTALACION:
+    1- Disponer de una base de datos sql vacia. El archivo de configuracion(config-setup.php) se encargara de generar las tablas necesarias.
+    2- Conceder permisos de lectura y escritura sobre el directorio raiz y los archivos que contiene.
+    3- Desde el navegador acceder a la aplicacion e introducir las credenciales de la base de datos. Si la conexion es exitosa, se le pedira que inserte los datos del administrador.
